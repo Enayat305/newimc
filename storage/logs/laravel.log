@@ -1,0 +1,34 @@
+[2020-07-10 19:49:09] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\xampp\\htdocs\
+ewimc\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:168)
+[stacktrace]
+#0 C:\\xampp\\htdocs\
+ewimc\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(102): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\xampp\\htdocs\
+ewimc\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(90): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\xampp\\htdocs\
+ewimc\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(500): Illuminate\\Log\\LogManager->driver()
+#3 C:\\xampp\\htdocs\
+ewimc\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(118): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 C:\\xampp\\htdocs\
+ewimc\\app\\Exceptions\\Handler.php(46): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#5 C:\\xampp\\htdocs\
+ewimc\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(378): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#6 C:\\xampp\\htdocs\
+ewimc\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(143): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2020-07-10 19:49:09] laravel.ERROR: syntax error, unexpected ''options'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected ''options'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' at C:\\xampp\\htdocs\
+ewimc\\config\\database.php:66)
+[stacktrace]
+#0 C:\\xampp\\htdocs\
+ewimc\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 C:\\xampp\\htdocs\
+ewimc\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(210): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 C:\\xampp\\htdocs\
+ewimc\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(322): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 C:\\xampp\\htdocs\
+ewimc\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
